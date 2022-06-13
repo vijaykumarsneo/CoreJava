@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ReverseNumber
 {
 	public static void main(String args[])
@@ -8,7 +7,6 @@ public class ReverseNumber
 		System.out.print("Enter a number :");		
 		int number = Key.nextInt();
 		int reversedNumber = 0;
-		
 		while(number != 0)
 		{
 			int remainder = number % 10;
